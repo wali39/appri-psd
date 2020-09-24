@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap");
+.banner {
+    /* position: fixed; */
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.margintop {
+    margin-top: 30px;
+    position: relative;
+}
+
+header {
+    overflow: hidden;
+}
+
+.sign-in {
+    background: #6d5ee0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+ul li a {
+    font-size: 20px;
+}
+
+.b {
+    padding: 12px 30px;
+    width: 150px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.b:hover {
+    background-image: linear-gradient(to right, #ff65a3, #ff7ca4);
+}
+
+.main {
+    margin-top: 250px;
+    width: 50%;
+}
+
+.main h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+}
+
+.main p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .main h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+    }
+    .main p {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+    }
+    .main {
+        width: 80%;
+    }
+    ul {
+        background: #250ce2;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
+
+@media (max-width: 870px) {
+    .banner {
+        height: 1400px;
+    }
+}
