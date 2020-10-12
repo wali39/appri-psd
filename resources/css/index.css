@@ -1,92 +1,286 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap");
 .banner {
-    /* position: fixed; */
-    background-image: url("../images/banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1000px;
-    width: 100%;
+  /* position: fixed; */
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
 }
 
 .margintop {
-    margin-top: 30px;
-    position: relative;
+  margin-top: 30px;
+  position: relative;
 }
 
 header {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .sign-in {
-    background: #6d5ee0;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+  background: #6d5ee0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 ul li a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.b {
-    padding: 12px 30px;
-    width: 150px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border: 1px solid white;
-    outline: none;
-    background: none;
-    color: white;
+.b,
+.b1 {
+  padding: 12px 30px;
+  width: 150px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid white;
+  outline: none;
+  background: none;
+  color: white;
+}
+.b1 {
+  background-image: linear-gradient(to right, #ff65a3, #ff7ca4);
 }
 
 .b:hover {
-    background-image: linear-gradient(to right, #ff65a3, #ff7ca4);
+  background-image: linear-gradient(to right, #ff65a3, #ff7ca4);
 }
 
 .main {
-    margin-top: 250px;
-    width: 50%;
+  margin-top: 250px;
+  width: 50%;
 }
 
 .main h1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
 }
 
 .main p {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
-    .main h1 {
-        font-family: "Open Sans", sans-serif;
-        font-size: 30px;
-    }
-    .main p {
-        font-family: "Roboto", sans-serif;
-        font-size: 12px;
-    }
-    .main {
-        width: 80%;
-    }
-    ul {
-        background: #250ce2;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
+  .main h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+  }
+  .main p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+  .main {
+    width: 80%;
+  }
+  ul {
+    background: #250ce2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
 }
 
 @media (max-width: 870px) {
-    .banner {
-        height: 1400px;
-    }
+  .banner {
+    height: 1400px;
+  }
+}
+
+.count-num,
+.count-num-plus {
+  font-size: 48px;
+  color: #7336f1;
+  font-weight: 700;
+}
+
+.h {
+  /* width: 100%;
+  height: 100%; */
+
+  border-radius: 20px;
+  margin: auto;
+
+  margin-bottom: 10px;
+  border-left: 10px solid red;
+
+  box-sizing: border-box;
+}
+
+/* faq css start  */
+.bg-faq {
+  background-image: url("../images/faq-bg.jpg");
+  width: 100vw;
+  height: 1800px;
+  background-size: cover;
+  top: 0;
+}
+.faq-w-h {
+  width: 100vw;
+  height: 1350px;
+}
+.row-con img {
+  width: 100%;
+  height: 100%;
+}
+.card-br {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.card-h {
+  background-image: radial-gradient(#3a35da, #7142f7);
+  color: white;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.card-h h5 a {
+  color: white;
+  text-decoration: none;
+}
+/* faq css end */
+/* client section */
+
+.client-all img {
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+/* app screenshot */
+/* .app-screenshot {
+  width: 1140px;
+  height: 990px;
+} */
+.app-screenshot img {
+  height: 100%;
+  width: 100%;
+}
+
+/* @media (max-width: 1140px) {
+  .app-screenshot {
+    width: 700px;
+    height: auto;
+  }
+}
+@media (max-width: 576px) {
+  .app-screenshot {
+    width: 325px;
+    height: auto;
+  }
+} */
+/* @media (max-width: 768px) {
+  .row-con img {
+    width: 300px;
+    height: 100%;
+  }
+} */
+/* work section  */
+.work {
+  margin: 100px 0;
+}
+.section-1,
+.section-2 {
+  width: 650;
+  height: 630px;
+}
+.section-1 img,
+.section-2 img {
+  height: 100%;
+  width: 100%;
+}
+/* news letter section */
+.news-leter {
+  background: #2f32d4;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+.news-leter input {
+  border-radius: 30px;
+}
+
+.download .btn {
+  border-radius: 40px;
+  padding: 5px 0px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.group-d h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.download .btn img {
+  line-height: 60px;
+}
+i.fas {
+  color: red;
+}
+.post-card {
+  margin-top: -50px;
+}
+.post-con {
+  margin: 60px 0;
+}
+
+/* video and work */
+.bg-v-w {
+  background-image: url("../images/faq-bg.jpg");
+  width: 100vw;
+  height: 2500px;
+  background-size: cover;
+  top: 0;
+}
+/* price section */
+.price {
+  position: relative;
+}
+.price::before {
+  content: "";
+  top: 70%;
+  left: 0;
+  position: absolute;
+  background: #3634d8;
+  width: 100vw;
+  height: 1000px;
+  z-index: -1;
+}
+/* app screenshot */
+.app-s {
+  margin-top: 400px;
+}
+/* carousel slider */
+.carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  background: url("../images/testimonial1.png") no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+.para {
+  font-size: 20px;
+}
+/* footer */
+.para-footer {
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #0984e3;
 }
